@@ -1,0 +1,30 @@
+{
+  "name": "backbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env ENV_PATH=.env TRADING_STRATEGY=DEFAULT node app.js",
+"grid": "cross-env ENV_PATH=grid.env TRADING_STRATEGY=GRID node app.js"
+
+
+  },
+  "keywords": [],
+  "author": "@heron_jr",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bs58": "^6.0.0",
+    "cron": "^4.3.0",
+    "dotenv": "^16.6.1",
+    "nodemon": "^3.1.9",
+    "openai": "^5.3.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "technicalindicators": "^3.1.0",
+    "tweetnacl": "^1.0.3",
+    "ws": "^8.18.1",
+    "cross-env": "^7.0.3"
+  }
+}
